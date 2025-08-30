@@ -135,7 +135,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 def main() -> None:
     """تشغيل البوت."""
     # الحصول على التوكن من متغير البيئة
-    token = os.environ.get('TELEGRAM_BOT_TOKEN')
+    token = os.environ.get('8016291574:AAEdSWkZCbKsQ1xy2CI24bhFukVRcvtUAhc')
     if not token:
         logger.error("لم يتم تعيين توكن البوت في متغيرات البيئة")
         return
